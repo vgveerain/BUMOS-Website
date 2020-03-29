@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.nav-text {
+    font-family: Verdana,Geneva,sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+#home{
+    font-size: 45;
+    height: 100px;
+}
+
+.nav-text.link {
+    font-size: 20;
+}
+
+#top-navbar {
+    position: relative;
+    display: flex;
+    height: 100px;
+}
+
+#projects-link {
+    float: left;
+}
+#team-link {
+    float: left;
+    margin: 0 auto;
+}
+#hire-us {
+    position: relative;
+    float: right;
+    background: #474747;
+    border-radius: 0.75em;
+    width: 150px;
+    height: 50%;
+}
+
+#hire-p {
+    width: 100%;
+    text-align: center;
+}
+
+*.center-vertical {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+*.center-horizontal {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    
+}
+
+#home-text {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 35;
+    color: white;
+    padding-left: 17px;
+    position: relative;
+    top: 80px;
+}
+
+@media only screen and (min-width: 1200px) {
+    #laptop {
+        position: fixed;
+        top: 110px;
+        left: 0;
+        z-index: -99;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #laptop {
+        position: relative;
+        z-index: -99;
+        width: 100%;
+    }
+    
+    #home-text {
+        font-size: 30;
+        top: 40;
+    }
+}
