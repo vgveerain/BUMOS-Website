@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="640" viewBox="0 0 360 640">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="360" height="640" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Search_menu" clip-path="url(#clip-path)">
+    <g id="Group_16" data-name="Group 16">
+      <g id="searchbar" transform="translate(2.079)">
+        <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(60 8)" fill="#fff" stroke="#707070" stroke-width="2">
+          <rect width="288.921" height="50" rx="12" stroke="none"/>
+          <rect x="1" y="1" width="286.921" height="48" rx="11" fill="none"/>
+        </g>
+        <g id="searchbutton" transform="translate(310.921 19)">
+          <g id="Ellipse_1" data-name="Ellipse 1" fill="#fff" stroke="#1b1b1b" stroke-width="4">
+            <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+            <circle cx="10.5" cy="10.5" r="8.5" fill="none"/>
+          </g>
+          <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(14.601 18.55) rotate(-45)" fill="#1b1b1b" stroke="#1b1b1b" stroke-width="1">
+            <rect width="5" height="12" rx="2.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="4" height="11" rx="2" fill="none"/>
+          </g>
+        </g>
+        <line id="Line_1" data-name="Line 1" y2="28" transform="translate(76.5 18.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+      <g id="backbutton" transform="translate(-0.485 -10.009)">
+        <rect id="Rectangle_12" data-name="Rectangle 12" width="5" height="20" rx="2.5" transform="translate(33.92 27.009) rotate(45)" fill="#1b1b1b"/>
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="5" height="20" rx="2.5" transform="translate(37.163 52.092) rotate(135)" fill="#1b1b1b"/>
+        <rect id="Rectangle_14" data-name="Rectangle 14" width="5" height="20" rx="2.5" transform="translate(45 39) rotate(90)" fill="#1b1b1b"/>
+      </g>
+      <g id="Categories">
+        <text id="Categories-2" data-name="Categories" transform="translate(19 118)" fill="#1b1b1b" font-size="22" font-family="Tahoma-Bold, Tahoma" font-weight="700" text-decoration="underline"><tspan x="0" y="0">Categories</tspan></text>
+        <g id="Group_4" data-name="Group 4">
+          <text id="Music" transform="translate(32 156)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">Music</tspan></text>
+          <text id="Dance" transform="translate(32 184)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">Dance</tspan></text>
+          <text id="Sports" transform="translate(32 211)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">Sports</tspan></text>
+          <text id="Food" transform="translate(32 239)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">Food</tspan></text>
+          <text id="Discussion" transform="translate(32 267)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">Discussion</tspan></text>
+          <text id="Theatre" transform="translate(32 295)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">Theatre</tspan></text>
+          <text id="Gaming" transform="translate(32 322)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">Gaming</tspan></text>
+          <text id="Browse_All_Categories_" data-name="Browse All Categories ►" transform="translate(32 350)" fill="#414141" font-size="16" font-family="Tahoma-Bold, Tahoma" font-weight="700"><tspan x="0" y="0">Browse All Categories ►</tspan></text>
+        </g>
+      </g>
+      <g id="Locations" transform="translate(0 -11)">
+        <text id="Location" transform="translate(19 416)" fill="#1b1b1b" font-size="22" font-family="Tahoma-Bold, Tahoma" font-weight="700" text-decoration="underline"><tspan x="0" y="0">Location</tspan></text>
+        <g id="Group_5" data-name="Group 5">
+          <text id="up-to_5_KM" data-name="up-to 5 KM" transform="translate(30 454)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">up-to 5 KM</tspan></text>
+          <text id="up-to_10_KM" data-name="up-to 10 KM" transform="translate(30 485.423)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">up-to 10 KM</tspan></text>
+          <text id="Delhi" transform="translate(30 516.846)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">Delhi</tspan></text>
+          <text id="Noida" transform="translate(30 548.269)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">Noida</tspan></text>
+          <text id="NCR" transform="translate(30 579.692)" fill="#414141" font-size="16" font-family="Tahoma"><tspan x="0" y="0">NCR</tspan></text>
+          <text id="Browse_All_Locations_" data-name="Browse All Locations ►" transform="translate(30 611.115)" fill="#414141" font-size="16" font-family="Tahoma-Bold, Tahoma" font-weight="700"><tspan x="0" y="0">Browse All Locations ►</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

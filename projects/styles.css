@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.shadow {
+  -webkit-filter: drop-shadow( 3px 3px 20px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow( 3px 3px 20px rgba(0, 0, 0, .9));
+  /* Similar syntax to box-shadow */
+}
+
 body {
     background-color: #000000;
 }
@@ -38,11 +44,95 @@ body::-webkit-scrollbar {
 
 #project-p {
     position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    font-size: 80;
+    font-size: 75;
 }
 
 #project-image {
     z-index: -99;
+    width: 50%;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    
+    /* -- below this are the changes -- */
+    background: url(assets/Pixel_2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 408px;
+    background-size: auto 100%;
     position: relative;
-    width: 75%;
+}
+
+.test {
+    margin: 23% auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    .media {
+        left: 25%;
+    }
+    
+    .test {
+        transform: translateX(-2px);
+    }
+    
+    .objective {
+        position: fixed; 
+        margin-left: 45px;
+    }
+    
+    .objective-p {
+        font-size: 15; font-weight: normal; color: white; width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #project-image {
+        width: 70%;
+    }
+    
+    .media {
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 340px;
+        background-size: 100% 100%;
+    }
+    
+    .test {
+        transform: translateX(-1px);
+        width: 300px;
+    }
+    
+    .objective {
+        position: relative;
+        text-align: center;
+    }
+    
+    .objective-p {
+        font-size: 15; font-weight: normal; color: white;
+        width: 350px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    #project-p {
+        font-size: 50;
+        position: relative;
+        top: 80%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #project-image {
+        width: 90%;
+    }
+    
+    #project-p {
+        width: 100%;
+        position: relative;
+        top: 80%;
+    }
 }
